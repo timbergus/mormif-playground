@@ -14,8 +14,12 @@
     "packages/*"
   ],
   "scripts": {
-    "mainframe": "npm start -w app/mainframe",
-    "news": "npm start -w app/news",
+    "app:shell": "npm start -w app/shell",
+    "app:news": "npm start -w app/news",
+    "news": "concurrently \"npm run app:shell\" \"npm run app:news\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
   }
 }

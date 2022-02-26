@@ -1,7 +1,7 @@
 const deps = require('./package.json').dependencies
 
 module.exports = {
-  name: 'Mainframe',
+  name: 'Shell',
   filename: 'remoteEntry.js',
   remotes: {
     Home: 'Home@http://localhost:5001/remoteEntry.js',
