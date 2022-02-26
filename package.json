@@ -14,10 +14,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "turbo run dev",
+    "mainframe": "npm start -w app/mainframe",
+    "news": "npm start -w app/news",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "turbo": "^1.1.4"
   }
 }

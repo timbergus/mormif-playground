@@ -6,6 +6,7 @@ This is the shell for the micro frontend project.
 
 ## Resources
 
+- [Introducing Module Federation in Webpack 5](https://www.youtube.com/watch?v=D3XYAx30CNc)
 - [Article](https://www.linkedin.com/pulse/microfrontends-create-react-app-without-eject-using-rany)
 - [ErrorBoundary](https://reactjs.org/docs/error-boundaries.html)
 - [Loader](https://mhnpd.github.io/react-loader-spinner)
