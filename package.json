@@ -2,14 +2,22 @@
   "name": "mormif-playground",
   "version": "1.0.0",
   "description": "This is the monorepo for Mormif.",
+  "author": "Gustavo Muñoz <timbergus@gmail.com>",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "monorepo",
     "microfrontends"
   ],
-  "author": "Gustavo Muñoz <timbergus@gmail.com>",
-  "license": "MIT"
+  "workspaces": [
+    "app/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "turbo run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "turbo": "^1.1.4"
+  }
 }
