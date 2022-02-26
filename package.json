@@ -10,13 +10,12 @@
     "microfrontends"
   ],
   "workspaces": [
-    "app/*",
     "packages/*"
   ],
   "scripts": {
-    "app:shell": "npm start -w app/shell",
-    "app:news": "npm start -w app/news",
-    "news": "concurrently \"npm run app:shell\" \"npm run app:news\"",
+    "packages:shell": "npm start -w packages/shell",
+    "packages:news": "npm start -w packages/news",
+    "news": "concurrently \"npm run packages:shell\" \"npm run packages:news\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
