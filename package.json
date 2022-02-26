@@ -17,8 +17,5 @@
     "packages:news": "npm start -w packages/news",
     "news": "concurrently \"npm run packages:shell\" \"npm run packages:news\"",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "concurrently": "^7.0.0"
   }
 }
