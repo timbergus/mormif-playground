@@ -1,4 +1,4 @@
-# Shell
+# Monorepo Micro Frontend Playground
 
 This is the shell for the micro frontend project.
 
@@ -10,6 +10,7 @@ This is the shell for the micro frontend project.
 - [ErrorBoundary](https://reactjs.org/docs/error-boundaries.html)
 - [Loader](https://mhnpd.github.io/react-loader-spinner)
 - [Article](https://ogzhanolguncu.com/blog/micro-frontends-with-module-federation)
+- [Article](https://medium.com/xgeeks/micro-frontends-at-scale-part-1-a8ab67bfb773)
 
 ## Available Scripts
 

@@ -10,6 +10,7 @@ module.exports = {
     './News': './src/components/App',
   },
   shared: {
+    ...deps,
     react: {
       singleton: true,
       requiredVersion: deps['react'],

@@ -12,6 +12,7 @@ module.exports = {
     './ErrorBoundary': './src/components/ErrorBoundary',
   },
   shared: {
+    ...deps,
     react: {
       singleton: true,
       requiredVersion: deps['react'],
