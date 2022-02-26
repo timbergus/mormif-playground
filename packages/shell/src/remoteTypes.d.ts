@@ -14,3 +14,8 @@ declare module 'About/About' {
   const About: React.ComponentType
   export default About
 }
+
+declare module 'Contact/Contact' {
+  const Contact: React.ComponentType
+  export default Contact
+}

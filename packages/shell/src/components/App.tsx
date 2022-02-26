@@ -30,6 +30,7 @@ const App = () => (
       <Link to="/">Home</Link>
       <Link to="/news">News</Link>
       <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
     </Navigation>
     <Body>
       <Outlet />

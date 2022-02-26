@@ -1,7 +1,7 @@
 {
   "name": "mormif-playground",
   "version": "1.0.0",
-  "description": "This is the monorepo for Mormif.",
+  "description": "This is the monorepo for MorMif.",
   "author": "Gustavo Muñoz <timbergus@gmail.com>",
   "license": "MIT",
   "main": "index.js",
@@ -14,8 +14,13 @@
   ],
   "scripts": {
     "packages:shell": "npm start -w packages/shell",
+    "packages:home": "npm start -w packages/home",
     "packages:news": "npm start -w packages/news",
+    "packages:contact": "npm start -w packages/contact",
+    "packages:about": "npm start -w packages/about",
     "news": "concurrently \"npm run packages:shell\" \"npm run packages:news\"",
+    "about": "concurrently \"npm run packages:shell\" \"npm run packages:about\"",
+    "contact": "concurrently \"npm run packages:shell\" \"npm run packages:contact\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

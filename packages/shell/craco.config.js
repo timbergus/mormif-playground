@@ -3,7 +3,7 @@ const cracoModuleFederation = require('craco-module-federation')
 module.exports = {
   mode: 'development',
   devServer: {
-    port: 5000,
+    port: 5300,
   },
   plugins: [
     {

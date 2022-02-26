@@ -1,15 +1,6 @@
-# Shell
+# Contact
 
-This is the shell for the micro frontend project.
-
-## Installation
-
-## Resources
-
-- [Article](https://www.linkedin.com/pulse/microfrontends-create-react-app-without-eject-using-rany)
-- [ErrorBoundary](https://reactjs.org/docs/error-boundaries.html)
-- [Loader](https://mhnpd.github.io/react-loader-spinner)
-- [Article](https://ogzhanolguncu.com/blog/micro-frontends-with-module-federation)
+This is the Contact module.
 
 ## Available Scripts
 
@@ -18,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:5300](http://localhost:5300) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.

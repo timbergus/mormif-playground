@@ -3,7 +3,7 @@ import { useRecoilValue } from 'recoil'
 
 import { asyncNewsAtom } from '../atoms/news.atom'
 
-const ErrorBoundary = lazy(() => import('Mainframe/ErrorBoundary'))
+const ErrorBoundary = lazy(() => import('Shell/ErrorBoundary'))
 
 function App() {
   const news = useRecoilValue(asyncNewsAtom)

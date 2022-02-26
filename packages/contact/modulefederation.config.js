@@ -1,13 +1,10 @@
 const deps = require('./package.json').dependencies
 
 module.exports = {
-  name: 'News',
+  name: 'Contact',
   filename: 'remoteEntry.js',
-  remotes: {
-    Shell: 'Shell@http://localhost:5300/remoteEntry.js',
-  },
   exposes: {
-    './News': './src/components/App',
+    './Contact': './src/components/App',
   },
   shared: {
     ...deps,

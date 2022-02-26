@@ -4,9 +4,10 @@ module.exports = {
   name: 'Shell',
   filename: 'remoteEntry.js',
   remotes: {
-    Home: 'Home@http://localhost:5001/remoteEntry.js',
-    News: 'News@http://localhost:5002/remoteEntry.js',
-    About: 'About@http://localhost:5003/remoteEntry.js',
+    Home: 'Home@http://localhost:5301/remoteEntry.js',
+    News: 'News@http://localhost:5302/remoteEntry.js',
+    About: 'About@http://localhost:5303/remoteEntry.js',
+    Contact: 'Contact@http://localhost:5304/remoteEntry.js',
   },
   exposes: {
     './ErrorBoundary': './src/components/ErrorBoundary',

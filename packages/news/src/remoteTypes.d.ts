@@ -1,6 +1,6 @@
 ///<reference types="react" />
 
-declare module 'Mainframe/ErrorBoundary' {
+declare module 'Shell/ErrorBoundary' {
   const ErrorBoundary: React.ComponentType
   export default ErrorBoundary
 }
