@@ -1,0 +1,15 @@
+{
+  "name": "mormif-playground",
+  "version": "1.0.0",
+  "description": "This is the monorepo for Mormif.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monorepo",
+    "microfrontends"
+  ],
+  "author": "Gustavo Muñoz <timbergus@gmail.com>",
+  "license": "MIT"
+}
