@@ -21,6 +21,7 @@
     "news": "concurrently \"npm run packages:shell\" \"npm run packages:news\"",
     "about": "concurrently \"npm run packages:shell\" \"npm run packages:about\"",
     "contact": "concurrently \"npm run packages:shell\" \"npm run packages:contact\"",
+    "storybook": "npm run storybook -w design-system",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
