@@ -10,20 +10,18 @@ import { contactFormAtom } from '../atoms/contactForm.atom'
 
 const StyledModal = styled(Modal)`
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 `
 
 const Card = styled(Box)`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 2rem;
-  width: 600px;
-  height: 300px;
-  background-color: white;
   padding: 3rem;
+  background-color: white;
   text-align: center;
 `
 
@@ -52,7 +50,7 @@ const ConfirmationModal = () => {
         </Typography>
         <Typography id="modal-description" variant="body1">
           Thanks {contactForm.name} {contactForm.surname} for contact us! As
-          soon as our team review your message, we will contact you at{' '}
+          soon as our team review your message, we will contact you to{' '}
           {contactForm.email}.
         </Typography>
       </Card>

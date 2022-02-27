@@ -9,8 +9,8 @@ const Container = styled.div`
 
 const Navigation = styled.nav`
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   height: 2rem;
   border-bottom: solid 1px;
@@ -18,10 +18,10 @@ const Navigation = styled.nav`
 
 const Body = styled.div`
   display: flex;
-  flex-direction: column;
   flex: 1;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 `
 
 const App = () => (
